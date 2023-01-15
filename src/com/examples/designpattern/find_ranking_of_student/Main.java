@@ -10,7 +10,7 @@ public class Main {
         Set<Subject> subjectSet1  = new HashSet<>();
         subjectSet1.add(subject1);
         subjectSet1.add(subject2);
-        Student s1= new Student(1, "Jyoti", subjectSet1);
+        Student s1= new Student(1, "XYZ", subjectSet1);
 
 
         Subject subject3= new Subject("Math", 50);
@@ -18,14 +18,14 @@ public class Main {
         Set<Subject> subjectSet2  = new HashSet<>();
         subjectSet2.add(subject3);
         subjectSet2.add(subject4);
-        Student s2= new Student(2, "Tanjila", subjectSet2);
+        Student s2= new Student(2, "ABC", subjectSet2);
 
         Subject subject5= new Subject("Math", 80);
         Subject subject6 = new Subject("English", 80);
         Set<Subject> subjectSet3  = new HashSet<>();
         subjectSet3.add(subject5);
         subjectSet3.add(subject6);
-        Student s3= new Student(3, "Shree", subjectSet3);
+        Student s3= new Student(3, "Person", subjectSet3);
 
 
         Set<Student> studentSet = new HashSet<>();
